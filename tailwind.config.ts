@@ -13,6 +13,13 @@ export default {
 		fontFamily: {
 			geistSans:["var(--font-geist-sans", ...fontFamily.sans]
 		},
+		container: {
+			center: true,
+			padding: "2rem",
+			screens: {
+				"2xl": "1400px"
+			}
+		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

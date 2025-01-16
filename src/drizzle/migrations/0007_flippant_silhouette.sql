@@ -1,0 +1,1 @@
+CREATE INDEX "coachIdIndex" ON "scheduleAvailabilities" USING btree ("coachId");

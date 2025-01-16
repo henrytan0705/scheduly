@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "unique_coach_id" ON "schedules" USING btree ("coachId");

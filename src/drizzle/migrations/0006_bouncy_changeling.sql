@@ -1,0 +1,1 @@
+ALTER TABLE "scheduleAvailabilities" ADD COLUMN "coachId" uuid NOT NULL;
